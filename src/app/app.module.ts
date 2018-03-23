@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
+import { WheelRotationComponent } from './pocs/wheel-rotation/wheel-rotation.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    WheelRotationComponent
   ],
   imports: [
     BrowserModule,

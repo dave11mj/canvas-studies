@@ -1,0 +1,17 @@
+<div id="canvasWrapper">
+  <div class="input-group">
+    <div class="input-entry">
+      <label for="diameter">Diameter</label>
+      <input name="diameter" step="10" type="number" [value]="wheelDiameter" (change)="wheelDiameter = $event.target.value">
+    </div>
+    <div class="input-entry">
+      <label for="speed">Speed</label>
+      <input name="speed" type="number" [value]="frameSpeed" (change)="frameSpeed = $event.target.value">
+    </div>
+  </div>
+  <div id="canvasAspectRatioMaxSize">
+    <div id="canvasAspectRatio">
+      <canvas id="canvasElement" #canvasElement width="960" height="540"></canvas>
+    </div>
+  </div>
+</div>

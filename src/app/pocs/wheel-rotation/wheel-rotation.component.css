@@ -1,0 +1,20 @@
+label {
+  color: white;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-weight: lighter;
+  margin-right: 12px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 12px;
+}
+
+.input-entry {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
