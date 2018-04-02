@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { WheelRotationComponent } from './pocs/wheel-rotation/wheel-rotation.component';
+import { WheelRotation3dComponent } from './pocs/wheel-rotation-3d/wheel-rotation-3d.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: WheelRotationComponent
+    component: WheelRotation3dComponent
   }
 ];
 

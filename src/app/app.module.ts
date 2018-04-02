@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { WheelRotationComponent } from './pocs/wheel-rotation/wheel-rotation.component';
+import { WheelRotation3dComponent } from './pocs/wheel-rotation-3d/wheel-rotation-3d.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    WheelRotationComponent
+    WheelRotationComponent,
+    WheelRotation3dComponent
   ],
   imports: [
     BrowserModule,
